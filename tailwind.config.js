@@ -5,7 +5,6 @@ module.exports = {
     `./src/components/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-
     extend: {
       colors: {
         darkBlue: '#132043',
