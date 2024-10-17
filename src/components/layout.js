@@ -4,15 +4,15 @@ import '../styles/global.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div>
+    <div className='bg-lightPink min-h-vh p-8'>
       <nav>
-        <ul>
+        <ul className='flex justify-between align-center'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
-      <main className='p-8'>
-        <h1>{pageTitle}</h1>
+      <main className='p-8 '>
+        {/* <h1>{pageTitle}</h1> */}
         {children}
       </main>
     </div>

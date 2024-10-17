@@ -5,7 +5,21 @@ module.exports = {
     `./src/components/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+
+    extend: {
+      colors: {
+        darkBlue: '#132043',
+        medBlue: '#1F4172',
+        pink: '#F1B4BB',
+        lightPink: '#FDF0F0'
+      },
+      minHeight: {
+        vh: '100vh'
+      },
+      textColor: {
+        DEFAULT: '#132043'
+      }
+    },
   },
   plugins: [],
 }
