@@ -17,7 +17,7 @@ module.exports = {
       },
       textColor: {
         DEFAULT: '#132043'
-      }
+      },
     },
   },
   plugins: [],

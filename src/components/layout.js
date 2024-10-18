@@ -5,11 +5,11 @@ import '../styles/global.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className='bg-lightPink min-h-vh p-8'>
+    <div className='bg-lightPink min-h-vh'>
         <Helmet>
-            <link id='icon' rel="icon" type="image/png" href="/laurel-life-favicon.png" />
+            <link id='icon' rel="icon" type="image/x-icon" href="/laurel-life-favicon.ico" />
         </Helmet>
-      <nav>
+      <nav className='bord-sep p-4 bg-medBlue text-lightPink'>
         <ul className='flex justify-between align-center'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>

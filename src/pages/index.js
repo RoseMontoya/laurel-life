@@ -6,9 +6,16 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-        <div className='flex items-center flex-col'>
-            <h1 >Laurel Life</h1>
-            <h2>It starts with a plan.</h2>
+        <div className='flex items-center flex-col min-h-fit'>
+            <div className='relative top-32 flex items-center flex-col'>
+                <h1>Laurel Life</h1>
+                <h2>It starts with a plan</h2>
+            </div>
+            <StaticImage
+                alt='clip art of a laurel wreath'
+                src='../images/laurel-wreath-clip-art.png'
+                className='absolute max-w-md'
+            />
         </div>
     </Layout>
   )
