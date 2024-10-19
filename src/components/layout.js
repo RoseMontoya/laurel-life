@@ -15,7 +15,7 @@ const Layout = ({ pageTitle, children }) => {
           <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
-      <main className='p-8 '>
+      <main className='py-8 px-20 '>
         {/* <h1>{pageTitle}</h1> */}
         {children}
       </main>
